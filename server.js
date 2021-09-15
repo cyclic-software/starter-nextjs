@@ -12,7 +12,7 @@ const handle = app.getRequestHandler()
 
 // Create a local server to receive data from
 const server = http.createServer((req, res) => {
-  res.set('transfer-encoding', '')
+  res.removeHeader('Transfer-Encoding');
   handle(req,res)
 });
 
