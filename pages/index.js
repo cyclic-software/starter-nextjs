@@ -23,7 +23,7 @@ export default function Home() {
         </p>
 
         <p className={styles.description}>
-          Try out api routs{' '}
+          Try out api routes{' '}
           <Link href="api/hello" passHref>
             <code className={styles.code}>api/hello</code>
           </Link>
