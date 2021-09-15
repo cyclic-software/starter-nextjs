@@ -1,12 +1,13 @@
 {
   "name": "nextjs-hello-world",
   "version": "0.1.0",
-  "private": true,
+  "main": "server.js",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "postinstall": "next build"
   },
   "dependencies": {
     "next": "11.1.2",
