@@ -4,8 +4,8 @@
   "main": "server.js",
   "scripts": {
     "dev": "next dev",
-    "build": "NODE_OPTIONS=--openssl-legacy-provider && next build",
-    "start": "NODE_OPTIONS=--openssl-legacy-provider && next start",
+    "build": "NODE_OPTIONS=--openssl-legacy-provider next build",
+    "start": "NODE_OPTIONS=--openssl-legacy-provider next start",
     "lint": "next lint"
   },
   "dependencies": {
