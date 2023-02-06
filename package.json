@@ -4,10 +4,9 @@
   "main": "server.js",
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint",
-    "postinstall": "next build"
+    "build": "NODE_OPTIONS=--openssl-legacy-provider && next build",
+    "start": "NODE_OPTIONS=--openssl-legacy-provider && next start",
+    "lint": "next lint"
   },
   "dependencies": {
     "next": "11.1.2",
