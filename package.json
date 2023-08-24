@@ -2,6 +2,11 @@
   "name": "nextjs-hello-world",
   "version": "0.1.0",
   "main": "server.js",
+  "keywords": [
+    "react",
+    "nextjs",
+    "next"
+  ],
   "scripts": {
     "dev": "next dev",
     "build": "next build",
